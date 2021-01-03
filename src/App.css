@@ -1,9 +1,11 @@
 .App {
   text-align: center;
 }
-
+body {
+  background-color: #78002e;
+}
 .App-logo {
-  height: 40vmin;
+  height: 10vmin;
   pointer-events: none;
 }
 
@@ -14,8 +16,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #78002e;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -26,6 +27,10 @@
 
 .App-link {
   color: #61dafb;
+}
+.MuiChip-root {
+  margin: 8px 4px;
+  text-transform: capitalize;
 }
 
 @keyframes App-logo-spin {
