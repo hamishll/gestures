@@ -63,14 +63,14 @@ function App() {
     <Container className={classes.cardGrid} maxWidth="md">
       <header className="App-header">
         {/*<img src={logo} className="App-logo" alt="logo" />*/}
-        <h1>Romantic Idea Generator</h1>
+        <h1>Relationship Roulette</h1>
         <p>{data.length} ideas to bring some adventure to your relationship! </p>
         <Grid container spacing={4} alignItems={"center"}>
           <Box m={1}> 
             <Button variant="contained" color="primary" onClick={() => setQuery("him")}>For him</Button>
           </Box>
           <Box m={1}> 
-            <Button variant="contained" color="primary" onClick={() => setQuery("her")}>Hor her</Button>
+            <Button variant="contained" color="primary" onClick={() => setQuery("her")}>For her</Button>
           </Box>
           <Box m={1}> 
             <Button variant="contained" color="primary" onClick={() => setQuery("gift")}>Gifts</Button>
@@ -110,7 +110,7 @@ function App() {
                       {filteredData.title}  
                     </Typography>
                     <Typography>
-                      This is a media card. You can use this section to describe the content. 
+                      Description goes here.
                     </Typography>
                   </CardContent>
                   <Grid>
